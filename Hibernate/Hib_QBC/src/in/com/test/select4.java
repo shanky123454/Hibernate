@@ -34,19 +34,7 @@ public class select4 {
 		 Criterion c5 = Restrictions.or(Restrictions.and(c1,c2),c3);
 		 
 		 criteria.add(c5);
-//		 criteria.add(c1);
-//		 criteria.add(c3);
-//		 criteria.add(c4);
 		 
-//		ProjectionList plist = Projections.projectionList();
-//		plist.add(Projections.property("sname"));
-//		plist.add(Projections.property("sage"));
-//		
-//		criteria.setProjection(plist);
-//		
-//		Order order = Order.asc("sage");
-//		criteria.addOrder(order);
-//		 
 	    List<Object[]> list = criteria.list();
 	    
 	    list.forEach(row->{
