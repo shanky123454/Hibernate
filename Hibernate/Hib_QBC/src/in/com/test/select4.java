@@ -20,6 +20,7 @@ public class select4 {
 	@SuppressWarnings("unchecked")
 	public static void main(String[] args) {
 		Session session =null;
+		Transaction transaction = null;
 	
 	try {
 		session= Util.getSession();
