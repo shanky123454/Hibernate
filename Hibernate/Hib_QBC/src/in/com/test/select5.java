@@ -21,7 +21,7 @@ public class select5 {
 	public static void main(String[] args) {
 		Session session =null;
 		
-		// Git hub ke sath mt khelo khatara 
+		
 		
 	
 	try {
