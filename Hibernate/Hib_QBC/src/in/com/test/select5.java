@@ -15,13 +15,13 @@ import org.hibernate.query.NativeQuery;
 import in.com.model.Student2;
 import in.com.util.Util;
 
-public class select4 {
+public class select5 {
 
 	@SuppressWarnings("unchecked")
 	public static void main(String[] args) {
 		Session session =null;
 		
-		// Git hub ke sath mt khelo khatara hai smjha
+		// Git hub ke sath mt khelo khatara 
 		
 	
 	try {
