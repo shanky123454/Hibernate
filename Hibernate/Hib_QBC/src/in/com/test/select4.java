@@ -1,17 +1,11 @@
 package in.com.test;
 
 import java.util.List;
+
 import org.hibernate.Criteria;
 import org.hibernate.Session;
-import org.hibernate.Transaction;
 import org.hibernate.criterion.Criterion;
-import org.hibernate.criterion.Order;
-import org.hibernate.criterion.ProjectionList;
-import org.hibernate.criterion.Projections;
 import org.hibernate.criterion.Restrictions;
-import org.hibernate.criterion.SimpleExpression;
-import org.hibernate.query.NativeQuery;
-
 import in.com.model.Student2;
 import in.com.util.Util;
 
@@ -44,6 +38,7 @@ public class select4 {
 	                         for (Object student2 : row) {
 								System.out.println(student2);
 							}
+	                         System.out.println();
 	                         System.out.println();
 	                     }
 	    		);
