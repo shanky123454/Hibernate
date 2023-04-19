@@ -47,8 +47,10 @@ public class select5 {
 						}
                      System.out.println("shashank raj");
                      System.out.println("shanky");
+
                      
                      System.out.println("tanya");
+
                       
 
                      }
