@@ -25,7 +25,7 @@ public class select5 {
 		{
 		 Criteria criteria = session.createCriteria(Student2.class);
 		 
-	     Criterion c5= Restrictions.eq("sname", "Bajju");
+	     Criterion c5= Restrictions.eq("sname", "Maruti");
 		 
 		 criteria.add(c5);
 		 
@@ -47,7 +47,7 @@ public class select5 {
 						}
                          System.out.println();
                          System.out.println();
-
+    
                      }
     		);
 		 }		
