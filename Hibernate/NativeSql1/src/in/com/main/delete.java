@@ -9,7 +9,7 @@ import in.com.util.Util;
 
 public class delete {
 
-	@SuppressWarnings("unchecked")
+	@SuppressWarnings({ "unchecked", "deprecation" })
 	public static void main(String[] args) {
 		Session session =null;
 		boolean flag = false;
@@ -22,8 +22,9 @@ public class delete {
 		if(session!=null)
 		{
 			transaction =session.beginTransaction();
-		 NativeQuery<Student2> query = session.createSQLQuery("delete from Student2 where sid=:id");
-		 query.setParameter("id", 1);
+		// NativeQuery<Student2> query = session.createSQLQuery("delete from Student2 where sid=:id");
+			NativeQuery<Student2> query = session.createSQLQuery("delete from Student2 where sid=?");
+		    query.setInteger(1, 2);
 	     
 	     std =query.executeUpdate();
 	     flag=true;
