@@ -45,9 +45,9 @@ public class select5 {
                          for (Object student2 : row) {
 							System.out.println(student2);
 						}
-                         System.out.println();
-                         System.out.println();
-                         System.out.println();
+                     System.out.println("shashank raj");
+                     System.out.println("shanky");
+                      
 
                      }
     		);
