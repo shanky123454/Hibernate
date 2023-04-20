@@ -60,7 +60,7 @@ public class select5 {
 	    
                   System.out.println("khana");
 	    
-	        System.out.println("nikki");
+	   
 
 	    
 	    System.out.println("madhu");
