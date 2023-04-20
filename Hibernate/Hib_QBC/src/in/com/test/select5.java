@@ -61,7 +61,7 @@ public class select5 {
 	    
 	    System.out.println("madhu");
 
-	
+	System.out.println("mitthu");
 
 
                      }
