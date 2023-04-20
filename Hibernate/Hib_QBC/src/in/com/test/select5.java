@@ -60,9 +60,10 @@ public class select5 {
 
 	    
 	    System.out.println("madhu");
-
+	    
+	    System.out.println("mami");
 	
-
+	    System.out.println("madhu");
 
                      }
     		);
