@@ -58,7 +58,7 @@ public class select5 {
 	    System.out.println("tanya");
 
 	    
-                  System.out.println("khana");
+                
 	    
 	   
 
