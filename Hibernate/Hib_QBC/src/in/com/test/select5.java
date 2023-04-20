@@ -64,6 +64,7 @@ public class select5 {
 	    System.out.println("khana");
 	
 
+	    System.out.println("mausa");
 
 	    
 	 
