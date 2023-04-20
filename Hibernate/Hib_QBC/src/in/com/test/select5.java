@@ -51,6 +51,8 @@ public class select5 {
 
 	    System.out.println("shanky");
 	    System.out.println("tanya");
+	    
+	    System.out.println("madhu");
 
 
                      }
