@@ -57,11 +57,11 @@ public class select5 {
 	    
 	    System.out.println("tanya");
 
-	    
+
 	    
 	    System.out.println("madhu");
 
-	    System.out.println("madhuri");
+	
 
 
                      }
