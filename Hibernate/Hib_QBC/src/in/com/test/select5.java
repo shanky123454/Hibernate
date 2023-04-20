@@ -46,7 +46,12 @@ public class select5 {
 							System.out.println(student2);
 						}
 
+
                     System.out.println("ajit");
+
+	    System.out.println("shanky");
+	    System.out.println("tanya");
+
 
                      }
     		);
