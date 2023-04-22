@@ -12,7 +12,7 @@ import in.com.util.Util;
 
 public class select5 {
 
-	@SuppressWarnings("unchecked")
+	@SuppressWarnings({ "unchecked", "deprecation" })
 	public static void main(String[] args) {
 		Session session =null;
 		
@@ -45,6 +45,7 @@ public class select5 {
                          for (Object student2 : row) {
 							System.out.println(student2);
 						}
+
 
 
                     System.out.println("ajit");
