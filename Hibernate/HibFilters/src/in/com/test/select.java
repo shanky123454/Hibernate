@@ -33,6 +33,7 @@ public class select {
 			System.out.println("shahsank raj");
 			System.out.println("tanya");
 			System.out.println("madhu");
+			System.out.println("ajit");
 			Util.closeSession(session);
 			Util.closeSessionFactory();
 		    }
