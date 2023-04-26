@@ -35,6 +35,7 @@ public class select {
 			System.out.println("madhu");
 			System.out.println("ajit");
 			System.out.println("madhuri devi");
+			System.out.println("khana");
 			Util.closeSession(session);
 			Util.closeSessionFactory();
 		    }
