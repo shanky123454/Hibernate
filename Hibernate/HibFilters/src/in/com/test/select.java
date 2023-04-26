@@ -2,6 +2,8 @@ package in.com.test;
 
 
 import java.util.List;
+
+import org.hibernate.Filter;
 import org.hibernate.Session;
 import org.hibernate.query.Query;
 import in.com.model.BankAccount;
@@ -18,6 +20,9 @@ public class select {
 			session=Util.getSession();
 			if (session!=null)
 			{
+				Filter filter  = (Filter) session.enableFilter("filter_bank_account_status");
+				filter.setParameter("acctype1", "blocked");
+				filter.setParameter("acctype2", "closed");
 		Query<BankAccount>  query = session.createQuery("FROM in.com.model.BankAccount WHERE balance >=:amount");
 		 query.setParameter("amount", 2500.f);
 		 
@@ -30,15 +35,6 @@ public class select {
 				e.printStackTrace();
 			}finally
 			{
-			System.out.println("shahsank raj");
-			System.out.println("tanya");
-			System.out.println("madhu");
-			System.out.println("ajit");
-
-			System.out.println("mausi");
-
-			System.out.println("madhuri devi");
-			System.out.println("khana");
 
 			Util.closeSession(session);
 			Util.closeSessionFactory();

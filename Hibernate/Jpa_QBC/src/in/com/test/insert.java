@@ -4,52 +4,55 @@ import org.hibernate.Session;
 
 import org.hibernate.Transaction;
 
-import in.com.model.Student2;
-import in.com.util.Util;
+import in.com.model.Student3;
+
+import in.com.util.Util2;
 
 public class insert{
 
 	public static void main(String[] args) {
 		Session session =null;
 		Transaction transaction = null;
-		Integer id =null;
+		Integer id1 =0;
+		Integer id2 =0;
 	try {
-		session= Util.getSession();
+		
+		session=Util2.getSession();
+
+		Student3 s1 = new Student3(69,"chutiya",55,"patna");
+//		s1.setAge(55);
+//		s1.setSaddress("patna");
+//		s1.setSid(2);
+//		s1.setSname("chutiya1");
+//		
+		
+		Student3 s2 = new Student3(96,"jitendra",55,"ranchi");
+//		s1.setAge(5);
+//		s1.setSaddress("ranchi");
+//		s1.setSid(1);
+//		s1.setSname("jitendra");
 	
-		Student2 s1 = new Student2();
-		s1.setAge(55);
-		s1.setSaddress("bokaro");
-		s1.setSid(6);
-		s1.setSname("chutiya jitendra");
-		
-		
-		Student2 s2 = new Student2();
-		s1.setAge(50);
-		s1.setSaddress("delhi");
-		s1.setSid(7);
-		s1.setSname("mahendra");
-	
-		
 		transaction= session.beginTransaction();
-  
-	     id =  (Integer) session.save(s1); 
-	     id =  (Integer) session.save(s2); 
+	
+	     id1 =  (Integer) session.save(s1); 
+	     id2 =  (Integer) session.save(s2); 
 	 
-	     System.out.println(id);
+	     System.out.println(id1);
+	     System.out.println(id2);
 
 	}catch(Exception e)
 	{
 		e.printStackTrace();
 	}finally {
-		if(id!=null)
+		if((id1!=0)&&(id2!=0))
 		{
 			 transaction.commit();
 		}
 		else{
 			transaction.rollback();
 		}
-	Util.closeSession(session);
-	Util.closeSessionFactory();
+	Util2.closeSession(session);
+	Util2.closeSessionFactory();
 	
 	}
 }

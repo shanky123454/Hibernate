@@ -31,7 +31,7 @@ public class delete {
 		   Root<Student2> r1 = cu1.from(Student2.class);
 		   
 		   
-		  CriteriaDelete<Student2> cu2 = cu1.where(cb.ge (r1.get("sid"), 6));
+		  CriteriaDelete<Student2> cu2 = cu1.where(cb.equal(r1.get("sid"), 0));
 		  
 		  
 		  Query query = session.createQuery(cu2);

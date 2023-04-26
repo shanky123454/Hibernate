@@ -6,11 +6,9 @@ import org.hibernate.annotations.DynamicInsert;
 
 @Entity
 @DynamicInsert(value = true)
-//@NamedNativeQuery(name="Bhai_Insert_Kro",query = "INSERT into Student2 (sid,saddress,sage,sname) values(:id,:address,:age,:name)")
 public class Student2 {
 	
 	@Id
-//	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	public  int sid;
 	
 	public String sname;

@@ -1,8 +1,5 @@
 package in.com.main;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 import org.hibernate.query.Query;
@@ -21,7 +18,8 @@ public class Update {
 		if(session!=null) 
 		  {
 			tr=session.beginTransaction();
-	    Query<Student> query = session.createQuery("UPDATE in.com.model.Student SET sname=:name, saddress=:address WHERE sid=:id");
+	    @SuppressWarnings("unchecked")
+		Query<Student> query = session.createQuery("UPDATE in.com.model.Student SET sname=:name, saddress=:address WHERE sid=:id");
 	     query.setParameter("name", "CHACHA");
 	     query.setParameter("address", "BOUNSI");
 	     query.setParameter("id",2);

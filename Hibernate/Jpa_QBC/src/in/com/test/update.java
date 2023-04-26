@@ -30,7 +30,6 @@ public class update {
 		  
 		   Root<Student2> r1 = cu1.from(Student2.class);
 		   
-		   
 		  CriteriaUpdate<Student2> cu2 =  cu1.set("sage", 100).where(cb.ge(r1.get("sage"),30));
 		  
 		  
