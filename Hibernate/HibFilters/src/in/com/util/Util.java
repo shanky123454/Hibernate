@@ -1,11 +1,9 @@
 package in.com.util;
 
 import org.hibernate.Session;
-
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
-
-import in.com.model.Student2;
+import in.com.model.BankAccount;
 
 public class Util {
 
@@ -13,7 +11,7 @@ public class Util {
 	public static Session session =null;
 	static {
 		
-		sessionFactory = new Configuration().configure().addAnnotatedClass(Student2.class).buildSessionFactory();
+		sessionFactory = new Configuration().configure().addAnnotatedClass(BankAccount.class).buildSessionFactory();
 	}
 	
 	

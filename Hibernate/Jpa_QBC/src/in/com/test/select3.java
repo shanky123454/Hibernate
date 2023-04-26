@@ -28,7 +28,7 @@ public class select3 {
 	        CriteriaBuilder cb = session.getCriteriaBuilder();
 		
 	       // In JPA Criteria API, Tuple provides another way to select multiple values.
-	       // Tuple contains ordered query results which can be access via index,
+	       // Tuple contains ordered query results which can be access via index
 	        
 	        CriteriaQuery<Tuple> cu = cb.createTupleQuery();
 	
@@ -41,10 +41,10 @@ public class select3 {
 
               List<Tuple> list = q.getResultList();
      
-          list.forEach(tuple->{
+          list.forEach(tupleed->{
                          
 						System.out.printf("name: %s , age: %d, id =%d%n",
-						tuple.get(0, String.class), tuple.get(1,Integer.class), tuple.get(2, Integer.class));
+								tupleed.get(0, String.class), tupleed.get(1,Integer.class), tupleed.get(2, Integer.class));
 
                      }
     		);

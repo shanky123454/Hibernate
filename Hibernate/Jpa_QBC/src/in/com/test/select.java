@@ -21,14 +21,14 @@ public class select {
 		
 		
 		//  Aggregate functions are defined on CriteriaBuilder
-		//  CriteriaQuery defines a database select query
+		//  CriteriaQuery defines a database select query i.e select,from,where
 
 	
 	try {
 		session= Util.getSession();
 		if(session!=null)
 		{
-	        CriteriaBuilder cb = session.getCriteriaBuilder();
+	      CriteriaBuilder cb = session.getCriteriaBuilder();
 		
 		  CriteriaQuery<Student2>  cu =   cb.createQuery(Student2.class);
 	

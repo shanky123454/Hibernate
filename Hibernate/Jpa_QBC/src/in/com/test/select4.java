@@ -33,7 +33,7 @@ public class select4 {
 		  
 		
 		  
-		   CriteriaQuery<Student2> cq = cu.select(r.get("sname"));
+		    CriteriaQuery<Student2> cq = cu.select(r.get("sname"));
 
 		  
 		       Query q = session.createQuery(cq);
