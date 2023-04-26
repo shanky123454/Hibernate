@@ -8,7 +8,7 @@ import in.com.model.BankAccount;
 import in.com.util.Util;
 
 
-public class Select {
+public class select {
 
 	@SuppressWarnings("unchecked")
 	public static void main(String[] args) {
