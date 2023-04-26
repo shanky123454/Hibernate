@@ -31,6 +31,7 @@ public class select {
 			}finally
 			{
 			System.out.println("shahsank raj");
+			System.out.println("tanya");
 			Util.closeSession(session);
 			Util.closeSessionFactory();
 		    }
