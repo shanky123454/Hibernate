@@ -10,6 +10,7 @@ import in.com.util.Util;
 
 public class selectapp3 {
 
+	@SuppressWarnings("unchecked")
 	public static void main(String[] args) {
 		Session session =null;
 		boolean flag = false;

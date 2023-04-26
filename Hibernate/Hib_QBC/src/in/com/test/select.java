@@ -12,20 +12,18 @@ import in.com.util.Util;
 
 public class select {
 
-	@SuppressWarnings("unchecked")
+	@SuppressWarnings({ "unchecked", "deprecation" })
 	public static void main(String[] args) {
 		Session session =null;
 		boolean flag = false;
 		Integer std = null;
 		Student2 student=null;
-	//	Transaction transaction =null;
 
 	try {
 		session= Util.getSession();
 		if(session!=null)
 		{
-			//transaction =session.beginTransaction();
-		 Criteria criteria = session.createCriteria(Student2.class);
+		Criteria criteria = session.createCriteria(Student2.class);
 	    List<Student2> list = criteria.list();
 	     flag=true;
 	     list.forEach(System.out::println);

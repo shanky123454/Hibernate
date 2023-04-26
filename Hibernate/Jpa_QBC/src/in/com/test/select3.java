@@ -4,13 +4,11 @@ import java.util.List;
 
 import javax.persistence.Query;
 import javax.persistence.Tuple;
-import javax.persistence.TypedQuery;
 import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
-import javax.persistence.criteria.CriteriaUpdate;
 import javax.persistence.criteria.Root;
+
 import org.hibernate.Session;
-import org.hibernate.query.criteria.internal.CriteriaUpdateImpl;
 
 import in.com.model.Student2;
 import in.com.util.Util;

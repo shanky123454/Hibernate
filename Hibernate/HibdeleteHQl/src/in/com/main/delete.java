@@ -8,6 +8,7 @@ import in.com.util.Util;
 
 public class delete {
 
+	@SuppressWarnings("unchecked")
 	public static void main(String[] args) {
 		Session session =null;
 		boolean flag = false;

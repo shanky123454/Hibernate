@@ -1,7 +1,6 @@
 package in.com.main;
 
 import java.util.List;
-
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 import org.hibernate.query.NativeQuery;
@@ -11,11 +10,10 @@ import in.com.util.Util;
 
 public class selectapp {
 
+	@SuppressWarnings("unchecked")
 	public static void main(String[] args) {
 		Session session =null;
 		boolean flag = false;
-//		Integer std = null;
-//		Student student=null;
 		Transaction transaction =null;
 
 	try {

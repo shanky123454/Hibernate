@@ -1,19 +1,28 @@
 package in.com.model;
 
+import java.io.Serializable;
+
 import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
 import javax.persistence.Id;
+
 import org.hibernate.annotations.DynamicInsert;
+import org.hibernate.annotations.Filter;
+import org.hibernate.annotations.FilterDef;
+import org.hibernate.annotations.ParamDef;
 
 @Entity
 @DynamicInsert(value = true)
-//@NamedNativeQuery(name="Bhai_Insert_Kro",query = "INSERT into Student2 (sid,saddress,sage,sname) values(:id,:address,:age,:name)")
-public class BankAccount {
+@FilterDef(name="filter_bank_account_status", parameters = {
+		@ParamDef(type = "string", name = "acctype1"),
+		@ParamDef(type = "string", name = "acctype2")
+})
+
+@Filter(name = "filter_bank_account_status",condition = "accttype NOT IN(:acctype1,:acctype2)")
+public class BankAccount  implements Serializable{
 	
+	private static final long serialVersionUID = 1L;
+
 	@Id
-	//@GeneratedValue(strategy=GenerationType.IDENTITY)
-	
 	public long Accno;
 	
 	public String accholdername;
@@ -26,7 +35,7 @@ public class BankAccount {
 	
 	public BankAccount()
 	{
-		System.out.println("inside student2.java");
+		System.out.println("inside BankAccount.java");
 	}
 	
 	public long getAccno() {
