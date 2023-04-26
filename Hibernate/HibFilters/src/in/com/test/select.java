@@ -30,7 +30,7 @@ public class select {
 				e.printStackTrace();
 			}finally
 			{
-			
+			System.out.println("shahsank raj");
 			Util.closeSession(session);
 			Util.closeSessionFactory();
 		    }
