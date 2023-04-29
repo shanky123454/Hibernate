@@ -10,7 +10,7 @@ import in.com.model.BankAccount;
 import in.com.util.Util;
 
 
-public class select {
+public class selectusinghql {
 
 	@SuppressWarnings("unchecked")
 	public static void main(String[] args) {
