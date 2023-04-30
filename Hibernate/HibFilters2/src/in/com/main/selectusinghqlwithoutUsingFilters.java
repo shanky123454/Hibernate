@@ -1,4 +1,4 @@
-package in.com.test;
+package in.com.main;
 
 
 import java.util.List;
@@ -10,7 +10,7 @@ import in.com.model.BankAccount;
 import in.com.util.Util;
 
 
-public class select {
+public class selectusinghqlwithoutUsingFilters {
 
 	@SuppressWarnings("unchecked")
 	public static void main(String[] args) {
@@ -20,12 +20,10 @@ public class select {
 			session=Util.getSession();
 			if (session!=null)
 			{
-				Filter filter  = (Filter) session.enableFilter("filter_bank_account_status");
-				filter.setParameter("acctype1", "blocked");
-				filter.setParameter("acctype2", "closed");
-		Query<BankAccount>  query = session.createQuery("FROM in.com.model.BankAccount WHERE balance >=:amount");
-		 query.setParameter("amount", 2500.f);
-		 
+
+		Query<BankAccount>  query = session.createQuery("FROM in.com.model.BankAccount");
+		
+		// @Where clause is also added implicitly to query for filtering 
 		List<BankAccount> list = query.getResultList();
 		    list.forEach(System.out::println);
 			}
