@@ -1,7 +1,7 @@
 <%@ page language="java" %>
 <%@ taglib prefix="myTags" uri="/WEB-INF/hello.tld" %>
 <h1>Hello this is index.jsp page</h1>
-<myTags:Hello ><%-- name="sachin" --%>
+<myTags:Hello names="sachin" ><%-- name="sachin" --%>
  <h1>This is the body of custom Tag</h1>
 </myTags:Hello>
 

@@ -1,6 +1,7 @@
 package in.com.Handler;
 
 import java.io.IOException;
+
 import javax.servlet.jsp.JspException;
 import javax.servlet.jsp.JspWriter;
 import javax.servlet.jsp.PageContext;
@@ -8,13 +9,15 @@ import javax.servlet.jsp.tagext.Tag;
 
 public class TagHandlerClass implements Tag {
 	PageContext pageContext = null;
-	public String name;
-	public String getName() {
-		return name;
+	public String names;
+	
+
+	public String getNames() {
+		return names;
 	}
 
-	public void setName(String name) {
-		this.name = name;
+	public void setNames(String names) {
+		this.names = names;
 	}
 
 	static {
@@ -36,17 +39,17 @@ public class TagHandlerClass implements Tag {
 	public int doStartTag() throws JspException {
 		System.out.println("TagHandlerClass.doStartTag()");
 		JspWriter out =pageContext.getOut();
-		if(name==null)
+		if(names==null)
 		{
 			try {
-				out.println("<h1> GOOD MORNING" +name+"</h1>");
+				out.println("<h1> GOOD MORNING" +names+"</h1>");
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
 		}
 		else {
 			try {
-				out.println("<h1> GOOD MORNING " +name+"</h1>");
+				out.println("<h1> GOOD MORNING " +names+"</h1>");
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
