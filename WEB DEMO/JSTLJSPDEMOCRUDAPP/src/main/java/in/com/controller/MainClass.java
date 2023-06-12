@@ -167,7 +167,6 @@ public class MainClass extends HttpServlet {
 			   IStudentService Iss = null;
 		         Iss = StudentServiceFactoryClass.getService();
 		         String str = Iss.updateStudent(s);
-		         
 		         request.setAttribute("str",str);
 		         RequestDispatcher rd= request.getRequestDispatcher("../../display3.jsp");
 		         rd.forward(request,response);
