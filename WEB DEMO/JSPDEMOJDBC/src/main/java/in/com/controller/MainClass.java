@@ -1,5 +1,4 @@
 package in.com.controller;
-
 import java.io.IOException;
 import java.io.PrintWriter;
 
@@ -30,7 +29,7 @@ public class MainClass extends HttpServlet {
 				throws ServletException, IOException {
 			
 			   String uri = request.getRequestURI();
-			   
+			   System.out.println(uri);
 			   if(uri.endsWith("searchform"))
 			   {
 				   String path = request.getPathInfo();
@@ -104,7 +103,7 @@ public class MainClass extends HttpServlet {
 			   System.out.println(path);
 			   String sid = request.getParameter("sid");
 
-			   IStudentService Iss = null;
+			     IStudentService Iss = null;
 		         Iss = StudentServiceFactoryClass.getService();
 		         Student student = Iss.searchStudent(Integer.parseInt(sid));
 				//PrintWriter out = response.getWriter();
@@ -144,10 +143,10 @@ public class MainClass extends HttpServlet {
 		   {
 			  // PrintWriter out = response.getWriter();
              //	response.setContentType("text/html");
-			   String path = request.getPathInfo();
-			   System.out.println(path);
-			   String path1 = request.getRequestURI();
-			   System.out.println(path1);
+			 String path = request.getPathInfo();
+			 System.out.println(path);
+			 String path1 = request.getRequestURI();
+			 System.out.println(path1);
 			 String sid = request.getParameter("sid");
 			 System.out.println(sid);
 			 System.out.println(sid.getClass().getName());
@@ -163,7 +162,7 @@ public class MainClass extends HttpServlet {
 			 Student s = new Student();
 			 s.setSage(Integer.parseInt(sage));
 			 s.setSname(sname);
-			  s.setSid(Integer.parseInt(sid));
+			 s.setSid(Integer.parseInt(sid));
 			 
 			   IStudentService Iss = null;
 		         Iss = StudentServiceFactoryClass.getService();

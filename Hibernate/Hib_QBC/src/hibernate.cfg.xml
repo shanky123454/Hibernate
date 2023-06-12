@@ -34,7 +34,7 @@
 		
 		
 		<!--  Mapping information for hibernate (classname=>tablename) (fieldnames=>columnnames) 
-        <mapping class="in.com.model.Student"/> -->
+        <mapping class="in.com.model.Student2"/> -->
 
 	</session-factory>
 

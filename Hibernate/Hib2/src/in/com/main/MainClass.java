@@ -25,7 +25,7 @@ public class MainClass {
 		Student s = new Student();
 		s.setAge(25);
 		s.setSaddress("BLR");
-		s.setSid(95);
+		s.setSid(97);
 		s.setSname("SHASHANK");
 		
 		session.save(s);// persistence operation

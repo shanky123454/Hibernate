@@ -33,6 +33,7 @@ public class TagHandlerClass implements Tag {
 	public int doEndTag() throws JspException {
 		System.out.println("TagHandlerClass.doEndTag()");
 		return EVAL_PAGE;
+		
 	}
 
 	@Override

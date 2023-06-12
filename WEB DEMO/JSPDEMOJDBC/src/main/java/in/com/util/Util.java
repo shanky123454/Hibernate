@@ -11,14 +11,12 @@ import java.sql.Statement;
 import java.util.Properties;
 
 public class Util {
-            
+            static Connection con =null;
 	  public static Connection getConnection() throws Exception
-	  {
-		  Connection con =null;
-		  
+	  {	  
 		 try {
-			  Class.forName("com.mysql.cj.jdbc.Driver");
-			FileInputStream fis = new FileInputStream("C:\\Users\\ASUS\\git\\WEB DEMO\\JDBCSERVLETAPPProject\\src\\main\\java\\in\\com\\properties\\application.properties");
+			Class.forName("com.mysql.cj.jdbc.Driver");
+			FileInputStream fis = new FileInputStream("C:\\Users\\ASUS\\git\\WEB DEMO\\JSPDEMOJDBC\\src\\main\\java\\in\\com\\properties\\application.properties");
 			Properties p = new Properties();
 			p.load(fis);
 			String url =p.getProperty("url");
