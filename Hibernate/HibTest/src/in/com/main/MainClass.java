@@ -38,6 +38,7 @@ public class MainClass {
 		
 		session.close();
 		sessionFactory.close();
+		
 	}
 
 }
