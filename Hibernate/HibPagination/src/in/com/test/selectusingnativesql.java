@@ -19,6 +19,7 @@ public class selectusingnativesql {
 			session=Util.getSession();
 			if (session!=null)
 			{
+				
 				Filter filter  = (Filter) session.enableFilter("filter_bank_account_status");
 				filter.setParameter("acctype1", "blocked");
 				filter.setParameter("acctype2", "closed");
