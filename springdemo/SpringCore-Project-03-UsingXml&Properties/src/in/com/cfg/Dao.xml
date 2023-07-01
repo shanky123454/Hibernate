@@ -14,8 +14,6 @@
 <property name="url" value="${jdbc.url}"></property>
  <property name="connectionProperties">
     <props>
-     <!--  <prop key="driverClassName">${jdbc.driverClassName}</prop>
-      <prop key="url">${jdbc.url}</prop> -->
       <prop key="user">${jdbc.user}</prop>
       <prop key="password">${jdbc.password}</prop>
     </props>

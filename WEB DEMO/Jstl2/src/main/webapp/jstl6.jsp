@@ -16,7 +16,7 @@
 	
 	<fmt:formatNumber var="fnumber" value="234567" type="currency"/>
 	<h1>${fnumber}</h1>
-	
+	    
 	
 	
 	 <jsp:useBean id="date" class="java.util.Date"></jsp:useBean>
