@@ -8,6 +8,7 @@ public class CustomerDto {
 	private Float pamt;
 	private Float rate;
 	private Float time;
+	private Float intersetamount;
 
 	static {
 		System.out.println("CustomerDTO.class file is loading...");
@@ -56,11 +57,20 @@ public class CustomerDto {
 	public void setTime(Float time) {
 		this.time = time;
 	}
+	
+
+	public Float getIntersetamount() {
+		return intersetamount;
+	}
+
+	public void setIntersetamount(Float intersetamount) {
+		this.intersetamount = intersetamount;
+	}
 
 	@Override
 	public String toString() {
 		return "CustomerDto [customerName=" + customerName + ", customerAddress=" + customerAddress + ", pamt=" + pamt
-				+ ", rate=" + rate + ", time=" + time + "]";
+				+ ", rate=" + rate + ", time=" + time + ", intersetamount=" + intersetamount + "]";
 	}
- 
+
 }

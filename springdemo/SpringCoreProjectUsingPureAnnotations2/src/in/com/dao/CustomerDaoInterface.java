@@ -1,10 +1,12 @@
 package in.com.dao;
 
+import java.util.List;
+
 import in.com.bo.CustomerBo;
 
 public interface CustomerDaoInterface {
 	
-	public int save(CustomerBo bo);
+	public CustomerBo save(CustomerBo bo);
 	
 
 }

@@ -2,9 +2,8 @@ package in.com.dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
-
 import javax.sql.DataSource;
-
+import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
@@ -30,7 +29,10 @@ public class CustomerDaoImplClass implements CustomerDaoInterface {
 	}
 
 	@Override
-	public int save(CustomerBo bo) {
+	public CustomerBo save(CustomerBo bo) {
+		CustomerBo lst = new CustomerBo();
+		BeanUtils.copyProperties(bo, lst);
+		System.out.println(lst);
 		int count =0;
 		try(Connection con = dataSource.getConnection();
 				
@@ -41,7 +43,7 @@ public class CustomerDaoImplClass implements CustomerDaoInterface {
 			pstmt.setFloat(3, bo.getPamt());
 			pstmt.setFloat(4, bo.getRate());
 			pstmt.setFloat(5, bo.getTime());
-		pstmt.setFloat(6, bo.getIntersetamount());
+		    pstmt.setFloat(6, bo.getIntersetamount());
 			
 			 count =pstmt.executeUpdate();
 			
@@ -50,7 +52,7 @@ public class CustomerDaoImplClass implements CustomerDaoInterface {
 			e.printStackTrace();
 		}
 		
-		return count;
+		return lst;
 	}
 
 }

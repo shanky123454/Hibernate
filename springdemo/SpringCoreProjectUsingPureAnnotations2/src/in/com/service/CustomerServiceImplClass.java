@@ -1,8 +1,8 @@
 package in.com.service;
 
+import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import in.com.bo.CustomerBo;
 import in.com.dao.CustomerDaoInterface;
 import in.com.dto.CustomerDto;
@@ -24,7 +24,7 @@ public class CustomerServiceImplClass implements CustomerServiceInterface {
 	}
 
 	@Override
-	public String calculateSimpleInterest(CustomerDto dto) {
+	public CustomerDto calculateSimpleInterest(CustomerDto dto) {
 		float interestamt =0.f;
 		
 		interestamt= (dto.getPamt()*dto.getRate()*dto.getTime());
@@ -38,8 +38,19 @@ public class CustomerServiceImplClass implements CustomerServiceInterface {
 		bo.setIntersetamount(interestamt);
 		
 		
-		int result= daointerface.save(bo);
-		return result==0? "customer registration failed" : "successfully registerd" + interestamt;
+		CustomerBo result= daointerface.save(bo);
+		CustomerDto listdto= new CustomerDto();
+//		listdto.setCustomerAddress(result.getCaddress());
+//		listdto.setCustomerName(result.getCname());
+//		listdto.setPamt(result.getPamt());
+//		listdto.setRate(result.getRate());
+//		listdto.setTime(result.getTime());
+//		listdto.setIntersetamount(result.getIntersetamount());
+		
+		BeanUtils.copyProperties(result, listdto);
+		System.out.println(listdto);
+		
+		return listdto;
 	}
 
 }

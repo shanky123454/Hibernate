@@ -1,6 +1,5 @@
 package in.com.cfg;
 
-
 import javax.sql.DataSource;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -40,16 +39,16 @@ public class AppConfig {
 //		 return (DataSource) dms;
 //	}
 	
-	@Value("${jdbc.driverClassName}")
+	@Value("${cust.driverClassName}")
 	private String DriverClassName;
 	
-	@Value("${jdbc.username}")
+	@Value("${cust.username}")
 	private String Username;
 	
-	@Value("${jdbc.password}")
+	@Value("${cust.password}")
 	private String Password;
 	
-	@Value("${jdbc.url}")
+	@Value("${cust.url}")
 	private String Url;
 
 	
