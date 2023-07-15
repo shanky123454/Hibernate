@@ -7,6 +7,7 @@ public class CustomerVo {
 	public String pamt;
 	public String rate;
 	public String time;
+	public String intersetamount;
 	
 	static {
 		System.out.println("inside customervo .class");
@@ -57,11 +58,18 @@ public class CustomerVo {
 		this.time = time;
 	}
 
+	public String getIntersetamount() {
+		return intersetamount;
+	}
+
+	public void setIntersetamount(String intersetamount) {
+		this.intersetamount = intersetamount;
+	}
+
 	@Override
 	public String toString() {
 		return "CustomerVo [cname=" + cname + ", caddress=" + caddress + ", pamt=" + pamt + ", rate=" + rate + ", time="
-				+ time + "]";
+				+ time + ", intersetamount=" + intersetamount + "]";
 	}
-	
-	
+
 }

@@ -35,15 +35,15 @@ public class Main {
 		vo.setRate(rate);
 		vo.setTime(time); 
 		
+		
 		ApplicationContext factory = new AnnotationConfigApplicationContext(AppConfig.class);
 		Object obj  = factory.getBean("controller",CustomerController.class);
 		CustomerController customercontroller = (CustomerController)obj;
 	
-		try {
-			String result = customercontroller.processCustomer(vo);
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
+			CustomerVo result = customercontroller.processCustomer(vo);
+			System.out.println(result);
+			System.out.println("shashank raj");
+		
 		sc.close();
 	}
 

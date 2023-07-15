@@ -64,6 +64,8 @@ public class service {
 		voter.vname = null;
 		voter.vage = 0;
 		voter.dov = null;
+		voter.vid=0;
+		System.out.println(voter);
 	}
 
 	@Override
