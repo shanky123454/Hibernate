@@ -1,0 +1,27 @@
+
+Ä	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.b 594c103f2c6e04c3d8ab059f031e0c1ah
+|
+java:S4488"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"b da96c53f00f8b26f1cc29c20b05f4ee1h
+d
+java:S1128"0Remove this unused import 'java.io.IOException'.b b4d0c6ab436c3bc3a3bfe8df6b26cb6eh
+d
+java:S1128"0Remove this unused import 'java.io.PrintWriter'.b 25c2642933bd76509577d0e805abf54ch
+^
+java:S1128"*Remove this unused import 'java.util.Map'.b 03ec136776d19432e0a31b46ebe07d1ah
+É
+java:S1128
+"ORemove this unused import 'org.springframework.web.bind.annotation.GetMapping'.b f7daf51c8d1fae012d7722cdfa37e0f6h
+Ñ
+java:S1128"PRemove this unused import 'org.springframework.web.bind.annotation.PostMapping'.b c7bbfc2c7f23b693736f1db55fa2d284h
+x
+java:S1128"DRemove this unused import 'jakarta.servlet.http.HttpServletRequest'.b 780f8dd9e4052f8d23ae8a530018425bh
+y
+java:S1128"ERemove this unused import 'jakarta.servlet.http.HttpServletResponse'.b f4f3bdd0ede904d34d298e3329bd6550h
+q
+java:S1128"=Remove this unused import 'jakarta.servlet.http.HttpSession'.b f73f036b60c9f6d871c4fd54a0a1316bh
+
+java:S1128"DRemove this unused import 'org.springframework.ui.ExtendedModelMap'.8æÄç∏»1b f5e8ea0a59870c4fd4d6397d97d85c39h
+Ñ
+java:S1128"IRemove this unused import 'org.springframework.web.servlet.ModelAndView'.8øÄç∏»1b 536e0f75c49772d40674d9c4f82cfab8h
+É
+java:S4488"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"8≥€ë∏»1b da96c53f00f8b26f1cc29c20b05f4ee1h

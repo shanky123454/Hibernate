@@ -1,0 +1,17 @@
+#For HTMLLayout and FileAppender
+#specify Logger level to retrieve the log messages
+log4j.rootLogger=INFO,R
+#specify appender
+log4j.appender.R=org.apache.log4j.FileAppender
+#Specify file name 
+log4j.appender.R.File=C:\\Users\\ASUS\\OneDrive\\Desktop\\log.html
+#Disabling append mode on file
+log4j.appender.R.append=true
+#sepcify layaout
+log4j.appender.R.layout=org.apache.log4j.HTMLLayout
+
+
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+spring.datasource.url=jdbc:mysql:///student
+spring.datasource.username=root
+spring.datasource.password=Shanky@123

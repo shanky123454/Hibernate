@@ -1,0 +1,9 @@
+
+^	java:S106'"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S106&"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S106$"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S106%"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+ç	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.b 50c7f89c88ff27990840a941ed95d4a3h
+^	java:S106"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+î
+java:S2293!"YReplace the type specification in this constructor call with the diamond operator ("<>").8¯íŸç»1b 8b0a6ac050d4885a841a9d76cd0bf23fh

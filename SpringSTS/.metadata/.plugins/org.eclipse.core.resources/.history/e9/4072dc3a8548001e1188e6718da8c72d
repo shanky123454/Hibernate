@@ -1,0 +1,25 @@
+package in.com.bo;
+
+import jakarta.persistence.Entity;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NonNull;
+
+@Entity
+@Data
+@AllArgsConstructor
+public class CoronaVaccine {
+
+	@NonNull
+	public int id;
+	
+	@NonNull
+	public String name;
+	
+	@NonNull
+	public String country;
+	
+	@NonNull
+	public String company;
+	
+}

@@ -1,0 +1,11 @@
+{
+  "groups": [
+    {
+      "name": "spring.datasource",
+      "type": "in.com.conf.ApplicationConfiguration",
+      "sourceType": "in.com.conf.ApplicationConfiguration"
+    }
+  ],
+  "properties": [],
+  "hints": []
+}

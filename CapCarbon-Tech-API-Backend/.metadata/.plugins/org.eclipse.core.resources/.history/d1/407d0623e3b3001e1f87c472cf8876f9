@@ -1,0 +1,24 @@
+package in.com.model;
+
+
+
+import lombok.Data;
+
+
+@Data
+@Entity
+@Table(name = "tourist")
+public class Tourist {
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Integer tid;  
+	
+	private String city;
+	private String name;
+	private String packageType;
+	private Double budget;
+	public String password;
+	public Integer enabled;
+	public String role;
+}

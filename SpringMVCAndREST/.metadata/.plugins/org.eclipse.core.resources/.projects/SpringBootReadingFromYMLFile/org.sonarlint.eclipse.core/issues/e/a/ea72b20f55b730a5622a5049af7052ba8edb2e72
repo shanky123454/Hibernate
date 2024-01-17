@@ -1,0 +1,8 @@
+
+”	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.8À·’šÉ1b 4b9a24fc9b6e96eeb35cd2d370861045h
+”	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.8Á·’šÉ1b 515e5aae4f9855a36668b9481a814759h
+”	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.8Á·’šÉ1b c205df7d697695e329b94a4c1892db28h
+u
+java:S1118":Add a private constructor to hide the implicit public one.8Á·’šÉ1b 65b890b222ef14dd81ea7a4396932428h
+W
+java:S1116"Remove this empty statement.8Á·’šÉ1b 9eecb7db59d16c80417c72d1e1f4fbf1h

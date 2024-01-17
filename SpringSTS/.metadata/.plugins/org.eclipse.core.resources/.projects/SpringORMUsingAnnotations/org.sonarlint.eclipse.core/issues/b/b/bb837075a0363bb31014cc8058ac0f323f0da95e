@@ -1,0 +1,9 @@
+
+Ž
+java:S14886"ZImmediately return this expression instead of assigning it to the temporary variable "bo".b db972f87623e1f212289cf511a5ae2bbh
+^	java:S106%"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+Ž
+java:S1488<"ZImmediately return this expression instead of assigning it to the temporary variable "bo".b fe3435f09edf10daa746e98795955776h
+m
+java:S1128"9Remove this unused import 'org.hibernate.SessionFactory'.b 836349435fd277987074405a8d75de4ch
+^	java:S106""+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh

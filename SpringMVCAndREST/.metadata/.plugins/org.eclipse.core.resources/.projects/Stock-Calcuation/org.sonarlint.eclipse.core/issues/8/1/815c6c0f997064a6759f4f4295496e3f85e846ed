@@ -1,0 +1,10 @@
+
+ç
+java:S2293'"YReplace the type specification in this constructor call with the diamond operator ("<>").b a4f5c9920c2235bcf03341de5d2e2d58h
+ç
+java:S2293+"YReplace the type specification in this constructor call with the diamond operator ("<>").b a4f5c9920c2235bcf03341de5d2e2d58h
+Z
+java:S1452"&Remove usage of generic wildcard type.b d1457b72c3fb323a2671125aef3eab5dh
+^	java:S106"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S106"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S106"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh

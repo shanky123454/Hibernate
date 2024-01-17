@@ -1,0 +1,9 @@
+
+‹	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8ÃÍó‘È1b 03ab340b3f99e03cff9e84314ead38c0h
+‹	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8ÃÍó‘È1b 490aa6e856ccf208a054389e47ce0d06h
+a
+java:S1452"&Remove usage of generic wildcard type.8êºšÈ1b d1457b72c3fb323a2671125aef3eab5dh
+™
+java:S1488"^Immediately return this expression instead of assigning it to the temporary variable "result".8êºšÈ1b 5206e1a060699aa2662e447e313aee69h
+Š
+java:S1128"ORemove this unused import 'org.springframework.web.bind.annotation.GetMapping'.8¨å‰Í1b f7daf51c8d1fae012d7722cdfa37e0f6h

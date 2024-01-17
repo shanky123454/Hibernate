@@ -1,0 +1,11 @@
+package in.com.dao;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import in.com.model.Tourist;
+
+
+
+public interface ITouristRepo extends JpaRepository<Tourist, Integer> {
+  public String findByName();
+}

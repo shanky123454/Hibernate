@@ -1,0 +1,12 @@
+
+€	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.b 594c103f2c6e04c3d8ab059f031e0c1ah
+_
+java:S1128"+Remove this unused import 'java.util.List'.b 647165940d2971f696436f6a7da1f89dh
+^
+java:S1128"*Remove this unused import 'java.util.Map'.b 03ec136776d19432e0a31b46ebe07d1ah
+^
+java:S1128"*Remove this unused import 'java.util.Set'.b 216775ad32ddf78ab0fc531a8d5c2f36h
+ƒ
+java:S1128"ORemove this unused import 'org.springframework.web.bind.annotation.GetMapping'.b f7daf51c8d1fae012d7722cdfa37e0f6h
+„
+java:S1128	"PRemove this unused import 'org.springframework.web.bind.annotation.PostMapping'.b c7bbfc2c7f23b693736f1db55fa2d284h
