@@ -15,9 +15,6 @@ public class select5 {
 	@SuppressWarnings({ "unchecked", "deprecation" })
 	public static void main(String[] args) {
 		Session session =null;
-		
-		
-		
 	
 	try {
 		session= Util.getSession();
@@ -25,58 +22,36 @@ public class select5 {
 		{
 		 Criteria criteria = session.createCriteria(Student2.class);
 		 
-	     Criterion c5= Restrictions.eq("sname", "Maruti");
+		 Criterion c5= Restrictions.eq("sage", "23");
+	     Criterion c6= Restrictions.eq("sname", "shanky");
+
 		 
 		 criteria.add(c5);
+		 criteria.add(c6);
 		 
 		 ProjectionList list1 = Projections.projectionList();
 		 list1.add(Projections.property("sage"));
 		 list1.add(Projections.property("sname"));
 		 
 		 criteria.setProjection(list1);
-//		 
-//		 List<Integer> list = criteria.list();
-//		 
-//		 list.forEach(System.out::println);
 		 
-   List<Object[]> list = criteria.list();
+   List<Student2> list = criteria.list();
     
-    list.forEach(row->{
-                         for (Object student2 : row) {
-							System.out.println(student2);
-						}
-
-
-
-                    System.out.println("ajit");
-			
-	    
-	    
-	    
-	     System.out.println("shanky");
-	   
-	    
-	    System.out.println("tanya");
-
-
-	    
-	    System.out.println("madhu");
-	    
-	    System.out.println("khana");
-	    System.out.println("nikki");
+//    list.forEach(row->{
+//                         for (Object student2 : row) {
+//							System.out.println(student2);
+//						                             }
+//                         System.out.println();
+//                     }
+//    		    );
+//	   }		
+ 
+   
+   for (Student2 student2 : list) {
+		System.out.println(student2);
+	         }
+	 }
 	
-
-	    System.out.println("mausa");
-
-	    
-	 
-	
-
-
-
-                     }
-    		);
-		 }		
 	}catch(Exception e)
 	{
 		e.printStackTrace();
@@ -87,3 +62,4 @@ public class select5 {
 	}
 }
 }
+

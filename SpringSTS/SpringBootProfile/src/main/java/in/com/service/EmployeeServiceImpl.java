@@ -56,6 +56,7 @@ public class EmployeeServiceImpl implements IEmployeeService {
 			EmployeeDTO dto = new EmployeeDTO();
 			BeanUtils.copyProperties(bo, dto);
 			dto.setSrNo(employeeDTO.size()+1);
+			System.out.println(dto);
 			employeeDTO.add(dto);
 		});
 		

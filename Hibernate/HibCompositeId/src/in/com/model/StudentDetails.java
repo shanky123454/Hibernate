@@ -4,6 +4,7 @@ import java.io.Serializable;
 
 import javax.persistence.EmbeddedId;
 import javax.persistence.Entity;
+import javax.persistence.Version;
 
 @Entity
 public class StudentDetails implements Serializable {
@@ -17,6 +18,8 @@ public class StudentDetails implements Serializable {
 	public String sname;
 	public int Semester;
 	
+	@Version
+	public int versioncount;
 
 	public Student getStudent() {
 		return student;
@@ -36,11 +39,13 @@ public class StudentDetails implements Serializable {
 	public void setSemester(int semester) {
 		Semester = semester;
 	}
-	
-	public String toString()
-	{
-		return student+"" +sname+" " +Semester;
+	@Override
+	public String toString() {
+		return "StudentDetails [student=" + student + ", sname=" + sname + ", Semester=" + Semester + ", versioncount="
+				+ versioncount + "]";
 	}
+
+	
 	
 
 }

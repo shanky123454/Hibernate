@@ -27,7 +27,7 @@ public class Second extends HttpServlet {
 		out.println("<body bgcolor='pink'>");
 		out.println("<center>");
 		out.println("<h1 style='color=red; text-align:center'> INFO ABOUT CRICKTER</h1>");
-		out.println("<form method='get' action='./third'>");
+		out.println("<form method='post' action='./third'>");
 		out.println("<input type='hidden' name='sname' value='"+ sname+"'/>");
 		out.println("<input type='hidden' name='sid' value='"+ sid+"'/>");
 		out.println("<input type='hidden' name='saddr' value='"+ saddr+"'/>");

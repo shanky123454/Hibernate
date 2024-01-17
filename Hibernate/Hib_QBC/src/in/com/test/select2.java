@@ -25,7 +25,7 @@ public class select2 {
 		{
 		 Criteria criteria = session.createCriteria(Student2.class);
 		 
-		 Criterion c1 = Restrictions.ge("sage",25);
+		 Criterion c1 = Restrictions.ge("sage",2);
 		 Criterion c2 = Restrictions.le("sage",40);
 		 
 		 criteria.add(c2);

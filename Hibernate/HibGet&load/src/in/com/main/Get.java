@@ -4,14 +4,15 @@ import org.hibernate.Session;
 import org.hibernate.Transaction;
 import in.com.model.Student;
 import in.com.util.Util;
-
+     
 public class Get {
 
 	public static void main(String[] args) {
 		Session session =null;
 		boolean flag = false;
 		Student student=null;
-		Integer id = 95;
+		Integer id = 1;
+		
 	try {
 		session= Util.getSession();
 		if(session!=null)

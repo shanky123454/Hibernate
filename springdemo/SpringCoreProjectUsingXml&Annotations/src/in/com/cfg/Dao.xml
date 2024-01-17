@@ -20,7 +20,7 @@
  
 </bean>
 
-<bean id="hikariDataSource"
+<bean id="dataSource"
 		class="com.zaxxer.hikari.HikariDataSource" parent="sqldata">
 		<property name="jdbcUrl" value="${jdbc.url}" />
 		<property name="minimumIdle" value='10' /> <!-- min pool size -->

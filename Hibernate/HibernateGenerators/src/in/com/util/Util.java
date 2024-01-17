@@ -1,10 +1,10 @@
 package in.com.util;
 
 import org.hibernate.Session;
+
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
-
-import in.com.model.Student;
+import in.com.model.Studentuuu;
 
 public class Util {
 
@@ -12,7 +12,7 @@ public class Util {
 	public static Session session =null;
 	static {
 		
-		sessionFactory = new Configuration().configure().addAnnotatedClass(Student.class).buildSessionFactory();
+		sessionFactory = new Configuration().configure().addAnnotatedClass(Studentuuu.class).buildSessionFactory();
 	}
 	
 	

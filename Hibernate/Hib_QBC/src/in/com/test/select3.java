@@ -1,6 +1,7 @@
 package in.com.test;
 
 import java.util.List;
+
 import org.hibernate.Criteria;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
@@ -25,10 +26,11 @@ public class select3 {
 		session= Util.getSession();
 		if(session!=null)
 		{
-		 Criteria criteria = session.createCriteria(Student2.class);
+		 @SuppressWarnings("deprecation")
+		Criteria criteria = session.createCriteria(Student2.class);
 		 
-		 Criterion c1 = Restrictions.ge("sage",25);
-		 Criterion c2 = Restrictions.le("sage",40);
+		 Criterion c1 = Restrictions.ge("sage",2);
+		 Criterion c2 = Restrictions.le("sage",25);
 		 
 		 criteria.add(c2);
 		 criteria.add(c1);

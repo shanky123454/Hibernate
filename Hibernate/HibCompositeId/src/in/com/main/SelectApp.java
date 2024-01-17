@@ -18,7 +18,7 @@ public class SelectApp {
 		{
 			Student s = new Student();
 			s.setSid(95);
-			s.setCid(121);
+			s.setCid(120);
 			
            sd=  session.get(StudentDetails.class, s);
 		    flag=true;

@@ -3,6 +3,7 @@ package in.com.main;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 import in.com.model.Student;
+import in.com.model.Studentuuu;
 import in.com.util.Util;
 
 public class Identity {
@@ -10,7 +11,7 @@ public class Identity {
 	public static void main(String[] args) throws Exception {
 		Session session =null;
 		boolean flag = false;
-		Student student=null;
+		Studentuuu student=null;
 		Transaction transaction =null;
 		
 	try {
@@ -21,8 +22,8 @@ public class Identity {
 		}
 		if(transaction!=null)
 		{
-			student = new Student();
-			student.setSname("jaadu");
+			student = new Studentuuu();
+			student.setSname("ratan tata");
 			student.setAge(22);
 			student.setSaddress("patna");
 			
@@ -36,6 +37,9 @@ public class Identity {
 		if(flag==true)
 		{
 			transaction.commit();
+			int id =student.getSid();
+			String name =student.getSname();
+			System.out.println(id+" " + name);
 			System.out.println("object got inserted");
 	     }
 		else {

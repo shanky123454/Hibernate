@@ -21,7 +21,12 @@ public class Second extends HttpServlet {
 		  String saddr =request.getParameter("saddr");
 		  
 		  HttpSession session = request.getSession();
+		  out.println("<h1>"+session.getId()+"</h1>");
 		  
+			 System.out.println("********************");
+			  System.out.println(session.getId());
+			  
+			  
 		  session.setAttribute("sage", sage);
 		  session.setAttribute("saddr", saddr);
 		  
