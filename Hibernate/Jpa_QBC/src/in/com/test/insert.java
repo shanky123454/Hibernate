@@ -2,11 +2,13 @@ package in.com.test;
 
 import org.hibernate.Session;
 
+
 import org.hibernate.Transaction;
 
 import in.com.model.Student3;
-
 import in.com.util.Util2;
+
+
 
 public class insert{
 

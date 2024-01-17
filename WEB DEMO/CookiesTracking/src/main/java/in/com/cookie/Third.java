@@ -21,6 +21,7 @@ public class Third extends HttpServlet {
 		PrintWriter out = response.getWriter();
 
 		Cookie[] session=request.getCookies();
+		
 	       String ename = session[0].getValue();
 	       String eid = session[1].getValue();
 	       String eaddr = session[2].getValue();

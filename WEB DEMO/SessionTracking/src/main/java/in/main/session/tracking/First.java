@@ -29,6 +29,12 @@ public class First extends HttpServlet {
 		  
 		  HttpSession session =request.getSession();
 		  
+		 PrintWriter writer = response.getWriter();
+		 writer.println("<h1>"+session.getId()+"</h1>");
+		 
+		 System.out.println("********************");
+		  System.out.println(session.getId());
+		  
 		  session.setAttribute("sname", sname);
 		  session.setAttribute("sid", sid);
 		  

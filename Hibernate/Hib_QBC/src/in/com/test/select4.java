@@ -32,17 +32,22 @@ public class select4 {
 		 
 		 criteria.add(c5);
 		 
-	    List<Object[]> list = criteria.list();
+	    List<Student2> list = criteria.list();
 	    
-	    list.forEach(row->{
-	                         for (Object student2 : row) {
-								System.out.println(student2);
-							}
-	                         System.out.println();
-	                       
-	                     }
-	    		);
-		 }		
+//	    list.forEach(row->{
+//	                         for (Student2 student2 : list) {
+//								System.out.println(student2);
+//							}
+//	                         System.out.println();
+//	                       
+//	                     }
+//	    		);
+//		 }	
+	  
+	     for (Student2 student2 : list) {
+			System.out.println(student2);
+		         }
+		 }
 	}catch(Exception e)
 	{
 		e.printStackTrace();

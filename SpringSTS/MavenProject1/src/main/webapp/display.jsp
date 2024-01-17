@@ -1,7 +1,7 @@
 <%@page import="org.apache.taglibs.standard.tag.common.core.ForEachSupport"%>
 <%@page import="org.apache.taglibs.standard.tag.common.xml.ForEachTag"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1" import="in.com.dto.Student" 
+    pageEncoding="ISO-8859-1" import="in.com.dao.Student" 
      isELIgnored="false" import="java.util.List"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
  <% Object obj = request.getAttribute("student"); %> 

@@ -24,7 +24,7 @@ public class InsertApp {
 		if(transaction!=null)
 		{
 			student = new Student();
-	        student.setCid(121);
+	        student.setCid(120);
 	        student.setSid(95);
 			
 	        StudentDetails sd = new StudentDetails();

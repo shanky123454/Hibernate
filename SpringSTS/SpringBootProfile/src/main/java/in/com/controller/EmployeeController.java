@@ -40,6 +40,7 @@ public class EmployeeController {
 			vo.setSal(String.valueOf(dto.getSal()));
 			vo.setDeptNo(String.valueOf(dto.getDeptNo()));
 			vo.setMgrNo(String.valueOf(dto.getMgrNo()));
+			System.out.println(vo);
 			employeeVO.add(vo);
 		});
 		
