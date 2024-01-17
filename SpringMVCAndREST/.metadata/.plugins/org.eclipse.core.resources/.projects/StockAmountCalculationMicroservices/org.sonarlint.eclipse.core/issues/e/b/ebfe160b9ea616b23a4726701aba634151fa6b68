@@ -1,0 +1,4 @@
+
+ç	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.b ea7b8f5515151137f0736fa6635088eah
+a
+java:S1452"&Remove usage of generic wildcard type.8†ÿ—Ö»1b d1457b72c3fb323a2671125aef3eab5dh

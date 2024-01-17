@@ -1,0 +1,19 @@
+package in.com.controller;
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import in.com.model.StudentEvents;
+
+@RestController
+@RequestMapping(value = "/reactive")
+public class MainController {
+	
+	@GetMapping(value = "/mono",produces = "application/json")
+	public ResponseEntity<StudentEvents> getMonoResponse(){
+		
+	}
+
+}

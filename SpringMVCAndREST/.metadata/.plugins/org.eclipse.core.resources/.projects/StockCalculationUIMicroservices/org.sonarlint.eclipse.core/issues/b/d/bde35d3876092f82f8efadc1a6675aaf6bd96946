@@ -1,0 +1,5 @@
+
+s	Web:S5254"@Add "lang" and/or "xml:lang" attributes to this "<html>" elementb 166248a6129a1e4370d20adc2d4c23f3h
+qWeb:UnsupportedTagsInHtml5Check	"(Remove this deprecated "center" element.b 8d2087217220f9ecca1ebde6c049ba92h
+^	Web:S1827"+Remove this deprecated "bgcolor" attribute.b 7dc4c821a3342fa8863ebea916e870c5h
+fWeb:TableWithoutCaptionCheck" Add a description to this table.b fdcbb7ca6d7202e68ff5e231215d38a9h

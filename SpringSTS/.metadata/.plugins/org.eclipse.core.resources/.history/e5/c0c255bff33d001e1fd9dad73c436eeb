@@ -1,0 +1,61 @@
+package in.com.service;
+
+import java.util.List;
+
+import org.springframework.beans.BeanUtils;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import ch.qos.logback.core.joran.util.beans.BeanUtil;
+import in.com.BO.StudentBO;
+import in.com.DTO.StudentDTO;
+import in.com.dao.IStudentDao;
+
+@Service
+public class StudentServiceImpl implements IStudentService {
+	
+	@Autowired
+	public IStudentDao dao;
+
+	@Override
+	public void insert(StudentDTO s) {
+		StudentBO bo = new StudentBO();
+		BeanUtils.copyProperties(s, bo);
+	StudentBO bo1 =	dao.save(bo);
+		return 0;
+	
+	}
+
+	@Override
+	public void delete(int id) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void delete(StudentDTO s) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void update(StudentDTO s) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public StudentDTO getStudent(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<StudentDTO> getAllStudents() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	
+
+}

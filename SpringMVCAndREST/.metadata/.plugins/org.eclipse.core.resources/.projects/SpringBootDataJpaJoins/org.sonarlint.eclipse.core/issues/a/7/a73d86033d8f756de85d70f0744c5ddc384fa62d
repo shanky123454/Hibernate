@@ -1,0 +1,14 @@
+
+	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.b 4f06cdb50efad64e5e2ce3d1d7a09ec3h
+e	java:S106"+Replace this use of System.out by a logger.8Χ–Ί„Δ1b bb1c3f2ea781263d3a2bb92b06a2061fh
+e	java:S106""+Replace this use of System.out by a logger.8κ―½„Δ1b bb1c3f2ea781263d3a2bb92b06a2061fh
+‹	java:S117)"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8µ΅Δ1b 40bed7cf9b3d4bb3a3d7a7e3eb18c5ebh
+e	java:S106*"+Replace this use of System.out by a logger.8µ΅Δ1b bb1c3f2ea781263d3a2bb92b06a2061fh
+g
+java:S1602,",Remove useless curly braces around statement8µ΅Δ1b f95b70fdc3088560732a5ac135644506h
+{
+java:S1612,"@Replace this lambda with method reference 'System.out::println'.8µ΅Δ1b b4d414045ddc319a7da99472065d3b35h
+e	java:S106-"+Replace this use of System.out by a logger.8µ΅Δ1b bb1c3f2ea781263d3a2bb92b06a2061fh
+‹	java:S1174"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8τοιΔ1b 0b2e43fde9414516a8c0fd1bb84df94fh
+e	java:S1065"+Replace this use of System.out by a logger.8τοιΔ1b bb1c3f2ea781263d3a2bb92b06a2061fh
+e	java:S1067"+Replace this use of System.out by a logger.8τοιΔ1b bb1c3f2ea781263d3a2bb92b06a2061fh

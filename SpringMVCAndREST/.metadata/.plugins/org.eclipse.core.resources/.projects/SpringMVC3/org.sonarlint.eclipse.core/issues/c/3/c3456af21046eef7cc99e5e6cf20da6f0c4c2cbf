@@ -1,0 +1,4 @@
+
+^	java:S106 "+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+ƒ
+java:S4488"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"8»º®¸È1b da96c53f00f8b26f1cc29c20b05f4ee1h

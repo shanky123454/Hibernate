@@ -1,0 +1,14 @@
+
+{
+java:S3973"GUse indentation to denote the code conditionally executed by this "if".b 167dd49f93a37db7c07ff84deb89aaffh
+Ä	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.b 594c103f2c6e04c3d8ab059f031e0c1ah
+í
+java:S1488 "^Immediately return this expression instead of assigning it to the temporary variable "entity".b 5a6ff46ed880af5e169194b68a222ef9h
+{
+java:S3973"GUse indentation to denote the code conditionally executed by this "if".b 8e51463263539a17c8d8aae9bf09e41ch
+}
+java:S3973"IUse indentation to denote the code conditionally executed by this "else".b 2954e92a9b4d0e998fe4893f8141649ah
+ç
+java:S2293 "YReplace the type specification in this constructor call with the diamond operator ("<>").b a4f5c9920c2235bcf03341de5d2e2d58h
+{
+java:S3973"GUse indentation to denote the code conditionally executed by this "if".b 7cc8a7398402052e6b1b7f54938615a5h

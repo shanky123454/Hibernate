@@ -1,0 +1,14 @@
+package in.com.bo;
+
+import lombok.Data;
+
+@Data
+public class CoronaVaccine {
+
+	
+	public int id;
+	public String name;
+	public String country;
+	public String company;
+	
+}

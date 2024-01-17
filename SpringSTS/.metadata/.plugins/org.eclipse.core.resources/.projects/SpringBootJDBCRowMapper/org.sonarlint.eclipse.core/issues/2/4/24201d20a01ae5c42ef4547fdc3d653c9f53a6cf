@@ -1,0 +1,26 @@
+
+º
+java:S1192"áDefine a constant instead of duplicating this literal "select empNo,empName,job,sal,deptNo,mgrNo from emp where empNo IN(?,?)" 5 times.b 212f94e8af0a234d52e029313d44d768h
+ç
+java:S14882"YImmediately return this expression instead of assigning it to the temporary variable "i".b abc6c26a26133c51cb8f6fdc4f1702fdh
+è
+java:S1488E"[Immediately return this expression instead of assigning it to the temporary variable "res".b 3a00bdd0a9b4fdb30e7a7f7d759feae6h
+s
+java:S22593"?A "NullPointerException" could be thrown; "i" is nullable here.b 865c0c0b4ab0e063e5caa3387c1a8741h
+Ö	java:S116"RRename this field "EmpName" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b a98eee27d549e602c1f4349e835e146ah
+Ñ	java:S116"QRename this field "EmpObj" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b 7c1721c608f50ab7da8ca161b9774212h
+Ö	java:S116"RRename this field "EmpObj1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b 87f0d15949998785a004f6cf5056dec5h
+^	java:S106("+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S106-"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S106:"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S106P"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+e
+java:S1611z"1Remove the parentheses around the "res" parameterb 84c40473414caf2ed4a7b1283e48bbf4h
+^	java:S106{"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+_	java:S106ï"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+_	java:S106Ø"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+_	java:S106ª"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+å
+java:S1128"XRemove this unused import 'org.springframework.jdbc.core.namedparam.SqlParameterSource'.b 8d8ded4bae3de1d466aac7aa08db24a6h
+Ñ
+java:S1128"PRemove this unused import 'org.springframework.jdbc.core.simple.SimpleJdbcCall'.b d78385c56f754fc56354cfc752192416h

@@ -1,0 +1,6 @@
+INDEX VERSION 1.4+C:\Users\ASUS\git\SpringSTS\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1240233832.index
+523956944.index
+1819168989.index
+4018684396.index
+3813164108.index
