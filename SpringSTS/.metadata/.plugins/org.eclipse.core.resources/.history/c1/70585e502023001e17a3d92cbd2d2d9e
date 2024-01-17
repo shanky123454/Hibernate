@@ -1,0 +1,18 @@
+package in.com;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ApplicationContext;
+
+import in.com.DTO.EmployeeDTO;
+
+@SpringBootApplication
+public class SpringBootDemo4Application {
+
+	public static void main(String[] args) {
+	ApplicationContext applicationContext =	SpringApplication.run(SpringBootDemo4Application.class, args);
+	EmployeeDTO dto = applicationContext.getBean("employeeDTO",EmployeeDTO.class);
+	
+	}
+
+}

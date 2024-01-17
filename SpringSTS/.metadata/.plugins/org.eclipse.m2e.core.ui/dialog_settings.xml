@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\ASUS\git\SpringSTS"/>
+			<item value="C:\Users\ASUS\git\SpringSTS\FranceSocgen\pom.xml"/>
+			<item value="C:\Users\ASUS\git\SpringSTS\MavenDemo3"/>
+			<item value="C:\Users\ASUS\OneDrive\Documents\MavenPrgms\MavenDemo2"/>
+			<item value="C:\Users\ASUS\OneDrive\Documents\MavenPrgms\Demo"/>
+			<item value="C:\Users\ASUS\OneDrive\Documents\MavenPrgms"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="PwSkills.DemoWithSlf4jlogging"/>
+			<item value="in.com"/>
+			<item value="org.MavenWebDemo"/>
+			<item value="org.MavenwebDemo"/>
+			<item value="org.simplewebApp"/>
+			<item value="org.SimpleMavenDemo"/>
+		</list>
+		<list key="groupId">
+			<item value="PwSkills"/>
+			<item value="Microsoft"/>
+			<item value="gfg"/>
+		</list>
+		<list key="artifactId">
+			<item value="DemoWithSlf4jlogging"/>
+			<item value="Log4jDemoWithJdbcAppender"/>
+			<item value="MavenWebDemo"/>
+			<item value="MavenwebDemo"/>
+			<item value="simplewebApp"/>
+			<item value="SimpleMavenDemo"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+			<item value="1.0"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenModuleWizardParentPage">
+		<list key="moduleName">
+			<item value="MavenWebDemo"/>
+			<item value="MavenwebDemo"/>
+			<item value="simplewebApp"/>
+			<item value="SimpleMavenDemo"/>
+			<item value="IndiaSocgenSimpleApp"/>
+			<item value="SocgenIndiaSimpleApp"/>
+			<item value="SimpleWebApp"/>
+			<item value="SimpleApp"/>
+			<item value="mavenmultimodule"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.wizards.MavenProjectSelectionDialog">
+		<item key="width" value="480"/>
+		<item key="height" value="581"/>
+		<item key="x" value="0"/>
+		<item key="y" value="427"/>
+	</section>
+</section>

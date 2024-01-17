@@ -1,0 +1,16 @@
+package in.com.bo;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
+@Data
+@AllArgsConstructor
+public class CoronaVaccine {
+
+	
+	public int id;
+	public String name;
+	public String country;
+	public String company;
+	
+}

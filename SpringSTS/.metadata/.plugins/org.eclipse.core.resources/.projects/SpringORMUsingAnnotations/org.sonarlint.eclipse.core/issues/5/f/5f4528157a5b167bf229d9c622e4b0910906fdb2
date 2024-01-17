@@ -1,0 +1,38 @@
+
+…
+java:S1192-"QDefine a constant instead of duplicating this literal "Enter the age:: " 3 times.b 146afd11f1ad22da517dc91fb7399ab7h
+^	java:S106"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S106T"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S106 "+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S106"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S106N"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S106D"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S106"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S106"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S1069"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S106="+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S106Q"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S106*"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S106K"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+‰
+java:S11920"UDefine a constant instead of duplicating this literal "Enter the address:: " 3 times.b 0e28b0edd0ed85f61021ed43921d89afh
+^	java:S106A"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S106"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^
+java:S2093"*Change this "try" to a try-with-resources.b 080f651e3fcca17df3a47c2cecfcb880h
+^	java:S106i"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S106-"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S106f"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S1060"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S106c"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S106u"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S106`"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S106H"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+“
+java:S1128	"_Remove this unused import 'org.springframework.context.support.ClassPathXmlApplicationContext'.b e57f374134627aaa1ac4aa2a3b6d1f70h
+^	java:S106"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S106""+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+†
+java:S1192*"RDefine a constant instead of duplicating this literal "Enter the name:: " 3 times.b 62af15e4921bc382d0c6618b837c5e7fh
+t
+java:S1659&"@Declare "age" and all following declarations on a separate line.b 7d637d275668ed6d41a9b97e6ad3a556h

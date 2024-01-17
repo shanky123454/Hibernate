@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: ASUS
+Build-Jdk: 19
+Implementation-Title: SpringBootHystric
+Implementation-Version: 1.1
+Implementation-Vendor-Id: com.example
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/SpringBootHystric
+Created-By: Maven Integration for Eclipse
+

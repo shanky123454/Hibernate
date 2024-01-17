@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "name": "emp.info",
+      "type": "in.com.DTO.EmployeeDTO2",
+      "sourceType": "in.com.DTO.EmployeeDTO2"
+    }
+  ],
+  "properties": [
+    {
+      "name": "emp.info.dept-no",
+      "type": "java.lang.Integer",
+      "sourceType": "in.com.DTO.EmployeeDTO2"
+    },
+    {
+      "name": "emp.info.emp-name",
+      "type": "java.lang.String",
+      "sourceType": "in.com.DTO.EmployeeDTO2"
+    },
+    {
+      "name": "emp.info.emp-no",
+      "type": "java.lang.Integer",
+      "sourceType": "in.com.DTO.EmployeeDTO2"
+    }
+  ],
+  "hints": []
+}

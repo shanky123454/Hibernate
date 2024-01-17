@@ -1,0 +1,10 @@
+
+Ñ	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b 490aa6e856ccf208a054389e47ce0d06h
+Ñ	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b 03ab340b3f99e03cff9e84314ead38c0h
+
+java:S1128"DRemove this unused import 'org.springframework.http.ResponseEntity'.8˛ú¢…»1b aaaba253df39297822d324a05b763895h
+ä
+java:S1128"ORemove this unused import 'org.springframework.web.bind.annotation.GetMapping'.8©¿≤€»1b f7daf51c8d1fae012d7722cdfa37e0f6h
+é
+java:S1128
+"SRemove this unused import 'org.springframework.web.bind.annotation.RestController'.8ÜΩ•…»1b f15541d6aa38a5d31550fd42640e7dc7h

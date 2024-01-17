@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;in.com.employee&apos; to &apos;SpringBootDemo5/src/main/java&apos;&#x0D;&#x0A;- Original project: &apos;SpringBootDemo5&apos;&#x0D;&#x0A;- Destination element: &apos;SpringBootDemo5/src/main/java&apos;&#x0D;&#x0A;- Original element: &apos;SpringBootDemo5/src/main/java/in.com.employee&apos;" description="Copy package" destination="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;in.com.employee" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1689446788856" version="1.0"/>
+</session>

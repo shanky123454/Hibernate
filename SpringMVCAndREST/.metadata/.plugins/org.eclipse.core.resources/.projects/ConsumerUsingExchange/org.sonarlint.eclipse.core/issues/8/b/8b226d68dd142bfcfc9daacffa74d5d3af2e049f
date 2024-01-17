@@ -1,0 +1,13 @@
+
+ç	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.b 50c7f89c88ff27990840a941ed95d4a3h
+^	java:S106"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S106"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S106"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S106"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S106 "+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+i
+java:S1128".Remove this unused import 'java.util.HashMap'.8∞‹Íπµ1b d84992d255a05fff2c29a54090661da8h
+e
+java:S1128"*Remove this unused import 'java.util.Map'.8∞‹Íπµ1b 03ec136776d19432e0a31b46ebe07d1ah
+l
+java:S1128"1Remove this unused import 'in.com.model.Student'.8âê˚πµ1b 0d759c18bd69019fed5d187ebf6341e7h

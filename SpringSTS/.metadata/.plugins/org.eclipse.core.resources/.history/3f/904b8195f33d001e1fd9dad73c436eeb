@@ -1,0 +1,9 @@
+package in.com.dao;
+
+import org.springframework.data.repository.CrudRepository;
+import in.com.DTO.StudentDTO;
+
+public interface IStudentDao extends CrudRepository<StudentDTO, Integer> {
+
+}
+

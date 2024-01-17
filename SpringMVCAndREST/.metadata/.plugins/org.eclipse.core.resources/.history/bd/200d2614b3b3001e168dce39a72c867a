@@ -1,0 +1,17 @@
+package in.ineuron.model;
+
+
+
+@Data
+@Entity
+public class Tourist {
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Integer tid;
+	
+	private String city;
+	private String name;
+	private String packageType;
+	private Double budget;
+}
